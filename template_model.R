@@ -19,8 +19,8 @@ ll_cty_m2_final_1_2_test1 <-
         sign_type:sign_intended_language +
         sign_text_prominence +
         
-        (1 + sign_type+ | ID1 | id_storefront_fc) +
-        (1 + sign_type+ | ID2 | city_name:id_storefront_fc),
+        (1 + sign_type + | ID1 | id_storefront_fc) +
+        (1 + sign_type + | ID2 | city_name:id_storefront_fc),
       
       muwordcountenglish   ~
         sign_type +
@@ -28,8 +28,7 @@ ll_cty_m2_final_1_2_test1 <-
         sign_type:sign_intended_language +
         sign_text_prominence +
         
-        (1 + sign_type + sign_intended_language |
-           ID1 | id_storefront_fc) +
+        (1 + sign_type | ID1 | id_storefront_fc) +
         (1 + sign_type | ID2 | city_name:id_storefront_fc),
       
       muwordcountcognates  ~
@@ -38,8 +37,7 @@ ll_cty_m2_final_1_2_test1 <-
         sign_type:sign_intended_language +
         sign_text_prominence +
         
-        (1 + sign_type + sign_intended_language |
-           ID1 | id_storefront_fc) +
+        (1 + sign_type + sign_intended_language | ID1 | id_storefront_fc) +
         (1 + sign_type | ID2 | city_name:id_storefront_fc),
       
       muwordcountilh       ~
@@ -48,8 +46,7 @@ ll_cty_m2_final_1_2_test1 <-
         sign_type:sign_intended_language +
         sign_text_prominence +
         
-        (1 + sign_type + sign_intended_language |
-           ID1 | id_storefront_fc) +
+        (1 + sign_type + sign_intended_language | ID1 | id_storefront_fc) +
         (1 + sign_type | ID2 | city_name:id_storefront_fc)
     )
   )
